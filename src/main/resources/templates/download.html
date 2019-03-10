@@ -257,7 +257,7 @@
 	  //merkleRoot = "6a4030393639376461383735646634326365386233343534353736363763613533616437336538383032386238616638323765373962323461333536643133633536";
 	  var flag = false;
 	  //6b18dbb7ef357c1c9bd15d2ab59e375c7718da59424b10abf09a2647e331d582
-	  $.getJSON("https://btc.blockr.io/api/v1/tx/info/"+anchorsId,function(result){
+	  $.getJSON("https://chain.so/api/v2/tx/BTC/"+anchorsId,function(result){
 		  
 		  for(var i=0 ; i <result.data.vouts.length ; i++){
 			  if(merkleRoot == result.data.vouts[i].extras.script){
@@ -280,7 +280,7 @@
   function verifyTransactionIsBelongedToAddress(authenticationAddress,anchorsId){
 	  //3DWwmE19gHdv3xM3zPrVwqoRmbJQ6cCPHd
 	  
- 	  $.get("http://btc.blockr.io/api/v1/address/txs/"+authenticationAddress,function(result){
+ 	  $.get("https://chain.so/api/v2/get_tx_spent/BTC/"+authenticationAddress,function(result){
  		  
  		  var flag = false;
  		  if(result.status == 'error'){

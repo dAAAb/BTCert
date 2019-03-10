@@ -29,7 +29,7 @@ $(function() {
 function getTransactions(address) {
 	$
 			.getJSON(
-					"http://btc.blockr.io/api/v1/address/txs/" + address,
+					"https://chain.so/api/v2/get_tx_spent/BTC/" + address,
 					function(result) {
 						var output = [];
 						// output.push('<tr><th

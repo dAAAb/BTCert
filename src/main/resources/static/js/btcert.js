@@ -11,7 +11,7 @@
 	
 	//configure
 	btcert.api = "";
-	btcert.redeem = {'addr':'3DWwmE19gHdv3xM3zPrVwqoRmbJQ6cCPHd', 'type':'multiaddrss', 'script':'5221038b1df5a4e05a0ee0a36b5d3a1e44c22ebdb2a0ce57df45650b06b167a85d48d4210379ed77927da05af3b854248c0a6b15e10b41437307c1f6e099f755fc0b973ae321031cf51d3076172465633b6faca2499da938b1c99832922533bcbfc1cf9c40884153ae'};
+	btcert.redeem = {'addr':'328XvMnvstzpPL1k7xj6ZGurAKh9Y1E3w4', 'type':'multiaddrss', 'script':'522102361290398d32bb997480020eae342a4dba5fa5267502246216c66ff5dfa6a8fd210312ba96dee8e69b01714cf68cc1bc06e3e3fd413b25a44f7eab584d0794e93b0e21027ad6db379db4d0c5e850a9f9e55664f6cc38a737ab93d91199142723be29ac1f53ae'};
 	btcert.tranction = {};
 	btcert._tranction_inout = [];
 	btcert._tranction_output = [];
